@@ -1,0 +1,136 @@
+--------- Starting game with Launcher Debug!
+Info: Launcher version: hebe-20250726-[9a821a5]-v3_openjdk
+Info: Architecture: arm
+Info: Device model: Amazon KFMAWI
+Info: API version: 28
+Info: Selected Minecraft version: 1.20.1-forge-47.3.0
+Info: Custom Java arguments: ""
+Info: RAM allocated: 544 Mb
+Info: Graphics device: ARM Mali-G72 MP3 (OpenGL ES 3)
+--------- beginning of main
+
+Added custom env: TMPDIR=/data/user/0/git.artdeell.mojo/cache
+Added custom env: MOJO_RENDERER=opengles3_ltw
+Added custom env: FORCE_VSYNC=false
+Added custom env: POJAV_NATIVEDIR=/data/app/git.artdeell.mojo-Exx5LYd3GrEaHO93XwGmPg==/lib/arm
+Added custom env: LIBGL_MIPMAP=3
+Added custom env: allow_higher_compat_version=true
+Added custom env: MESA_GLSL_CACHE_DIR=/data/user/0/git.artdeell.mojo/cache
+Added custom env: HOME=/storage/emulated/0/games/PojavLauncher
+Added custom env: PATH=/data/user/0/git.artdeell.mojo/runtimes/Internal-17/bin:/sbin:/system/sbin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin
+Added custom env: LIBGL_NOINTOVLHACK=1
+Added custom env: force_glsl_extensions_warn=true
+Added custom env: LIBGL_NORMALIZE=1
+Added custom env: POJAV_VSYNC_IN_ZINK=1
+Added custom env: LD_LIBRARY_PATH=/data/user/0/git.artdeell.mojo/runtimes/Internal-17/lib/jli:/data/user/0/git.artdeell.mojo/runtimes/Internal-17/lib:/system/lib:/vendor/lib:/vendor/lib/hw:/data/app/git.artdeell.mojo-Exx5LYd3GrEaHO93XwGmPg==/lib/arm
+Added custom env: LIBGL_NOERROR=1
+Added custom env: LIBGL_ES=3
+Added custom env: VTEST_SOCKET_NAME=/data/user/0/git.artdeell.mojo/cache/.virgl_test
+Added custom env: MESA_LOADER_DRIVER_OVERRIDE=zink
+Added custom env: POJAVEXEC_EGL=libltw.so
+Added custom env: JAVA_HOME=/data/user/0/git.artdeell.mojo/runtimes/Internal-17
+Added custom env: allow_glsl_extension_directive_midshader=true
+LTW will force dynamic storage buffers to be coherent.
+LTW will prevent all explicit buffer flushes.
+E/jrelog  (21436): dlopen libjvm.so failed: dlopen failed: library "libjvm.so" not found
+
+Arc Capes DNS Injector
+Parts of Alibaba's DCM library were used, please read https://github.com/alibaba/java-dns-cache-manipulator/blob/main/README.md for more info
+Added DNS cache entry: s.optifine.net/23.95.137.176
+[authlib-injector] [INFO] Logging file: /storage/emulated/0/games/PojavLauncher/instances/true_horror(the_-8d5a189f-79e9-466c-9dad-f96eec7c4d7c/authlib-injector.log
+[authlib-injector] [INFO] Version: 1.2.5
+[authlib-injector] [INFO] Authentication server: https://ely.by
+[authlib-injector] [INFO] Redirect to: https://account.ely.by/api/authlib-injector
+[authlib-injector] [INFO] Disabled Mojang namespace
+2025-08-18 09:47:43,218 main ERROR appender Console has no parameter that matches element Policies
+[09:47:43] [main/INFO]: ModLauncher running: args [--username, coolturtle, --version, 1.20.1, --gameDir, /storage/emulated/0/games/PojavLauncher/instances/true_horror(the_-8d5a189f-79e9-466c-9dad-f96eec7c4d7c, --assetsDir, /storage/emulated/0/games/PojavLauncher/.minecraft/assets, --assetIndex, 5, --uuid, 5f6a2ef3b4484f6583f4bfd3f04405b7, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, , --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[09:47:43] [main/INFO]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16-internal by N/A; OS Linux arch arm version Android-9
+Exception in thread "main" cpw.mods.niofs.union.UnionFileSystem$UncheckedIOException: java.util.zip.ZipException: zip END header not found
+Caused by: java.util.zip.ZipException: zip END header not found
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1320)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.initCEN(ZipFileSystem.java:1534)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:179)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120)
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:528)
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:475)
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystem.openFileSystem(UnionFileSystem.java:136)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystem.<init>(UnionFileSystem.java:131)
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystemProvider.newFileSystemInternal(UnionFileSystemProvider.java:115)
+	at cpw.mods.securejarhandler/cpw.mods.niofs.union.UnionFileSystemProvider.newFileSystem(UnionFileSystemProvider.java:105)
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.impl.Jar.<init>(Jar.java:84)
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.SecureJar.from(SecureJar.java:70)
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.SecureJar.from(SecureJar.java:66)
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.SecureJar.from(SecureJar.java:58)
+	at cpw.mods.securejarhandler/cpw.mods.jarhandling.SecureJar.from(SecureJar.java:50)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.0/net.minecraftforge.fml.loading.ModDirTransformerDiscoverer.visitFile(ModDirTransformerDiscoverer.java:76)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.0/net.minecraftforge.fml.loading.ModDirTransformerDiscoverer.scan(ModDirTransformerDiscoverer.java:65)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.0/net.minecraftforge.fml.loading.ModDirTransformerDiscoverer.candidates(ModDirTransformerDiscoverer.java:48)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.3.0/net.minecraftforge.fml.loading.ModDirTransformerDiscoverer.candidates(ModDirTransformerDiscoverer.java:38)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformationServicesHandler.lambda$discoverServices$14(TransformationServicesHandler.java:125)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessJava Exit code: 1
+Spliterator.forEachRemaining(AbstractList.java:720)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformationServicesHandler.discoverServices(TransformationServicesHandler.java:127)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:87)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+read: unexpected EOF!
+
+--------- beginning of main
+
+read: unexpected EOF!
+
+read: unexpected EOF!
+
+--------- beginning of main
+
+read: unexpected EOF!
+
+--------- beginning of main
+
+read: unexpected EOF!
+
+--------- beginning of main
+
+read: unexpected EOF!
+
+--------- beginning of main
+
+read: unexpected EOF!
+
+--------- beginning of main
+
+read: unexpected EOF!
+
+read: unexpected EOF!
+
+--------- beginning of main
+
