@@ -1,0 +1,643 @@
+--------- Starting game with Launcher Debug!
+Info: Launcher version: hebe-20250726-[9a821a5]-v3_openjdk
+Info: Architecture: arm
+Info: Device model: Amazon KFMAWI
+Info: API version: 28
+Info: Selected Minecraft version: neoforge-21.1.203
+Info: Custom Java arguments: ""
+Info: RAM allocated: 544 Mb
+Info: Graphics device: ARM Mali-G72 MP3 (OpenGL ES 3)
+--------- beginning of main
+
+Added custom env: TMPDIR=/data/user/0/git.artdeell.mojo/cache
+Added custom env: MOJO_RENDERER=opengles3_ltw
+Added custom env: FORCE_VSYNC=false
+Added custom env: POJAV_NATIVEDIR=/data/app/git.artdeell.mojo-Exx5LYd3GrEaHO93XwGmPg==/lib/arm
+Added custom env: LIBGL_MIPMAP=3
+Added custom env: allow_higher_compat_version=true
+Added custom env: MESA_GLSL_CACHE_DIR=/data/user/0/git.artdeell.mojo/cache
+Added custom env: HOME=/storage/emulated/0/games/PojavLauncher
+Added custom env: PATH=/data/user/0/git.artdeell.mojo/runtimes/Internal-21/bin:/sbin:/system/sbin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin
+Added custom env: LIBGL_NOINTOVLHACK=1
+Added custom env: force_glsl_extensions_warn=true
+Added custom env: LIBGL_NORMALIZE=1
+Added custom env: POJAV_VSYNC_IN_ZINK=1
+Added custom env: LD_LIBRARY_PATH=/data/user/0/git.artdeell.mojo/runtimes/Internal-21/lib/jli:/data/user/0/git.artdeell.mojo/runtimes/Internal-21/lib:/system/lib:/vendor/lib:/vendor/lib/hw:/data/app/git.artdeell.mojo-Exx5LYd3GrEaHO93XwGmPg==/lib/arm
+Added custom env: LIBGL_NOERROR=1
+Added custom env: LIBGL_ES=3
+Added custom env: VTEST_SOCKET_NAME=/data/user/0/git.artdeell.mojo/cache/.virgl_test
+Added custom env: MESA_LOADER_DRIVER_OVERRIDE=zink
+Added custom env: POJAVEXEC_EGL=libltw.so
+Added custom env: JAVA_HOME=/data/user/0/git.artdeell.mojo/runtimes/Internal-21
+Added custom env: allow_glsl_extension_directive_midshader=true
+LTW will force dynamic storage buffers to be coherent.
+LTW will prevent all explicit buffer flushes.
+E/jrelog  (10654): dlopen libjvm.so failed: dlopen failed: library "libjvm.so" not found
+
+Arc Capes DNS Injector
+Parts of Alibaba's DCM library were used, please read https://github.com/alibaba/java-dns-cache-manipulator/blob/main/README.md for more info
+Failed to inject cache!
+java.lang.ClassNotFoundException: java.net.InetAddress$CacheEntry
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at git.artdeell.arcdns.CacheUtil_J8.getConstructorOfInetAddress$CacheEntry(CacheUtil_J8.java:45)
+	at git.artdeell.arcdns.CacheUtil_J8.newCacheEntry(CacheUtil_J8.java:32)
+	at git.artdeell.arcdns.CacheUtil_J8.setInetAddressCache(CacheUtil_J8.java:20)
+	at git.artdeell.arcdns.ArcDNSInjectorAgent.premain(ArcDNSInjectorAgent.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:562)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+	Suppressed: java.lang.ClassNotFoundException: java.net.InetAddress$CachedAddresses
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:421)
+		at java.base/java.lang.Class.forName(Class.java:412)
+		at git.artdeell.arcdns.CacheUtil_J9.getConstructorOfInetAddress$CachedAddresses(CacheUtil_J9.java:42)
+		at git.artdeell.arcdns.CacheUtil_J9.newCachedAddresses(CacheUtil_J9.java:30)
+		at git.artdeell.arcdns.CacheUtil_J9.setInetAddressCache(CacheUtil_J9.java:20)
+		at git.artdeell.arcdns.ArcDNSInjectorAgent.premain(ArcDNSInjectorAgent.java:9)
+		... 4 more
+[authlib-injector] [INFO] Logging file: /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549/authlib-injector.log
+[authlib-injector] [INFO] Version: 1.2.5
+[authlib-injector] [INFO] Authentication server: https://ely.by
+[authlib-injector] [INFO] Redirect to: https://account.ely.by/api/authlib-injector
+[authlib-injector] [INFO] Disabled Mojang namespace
+ERROR StatusConsoleListener appender Console has no parameter that matches element Policies
+[08:46:57] [main/INFO]: ModLauncher running: args [--username, coolturtle, --version, 1.21.1, --gameDir, /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549, --assetsDir, /storage/emulated/0/games/PojavLauncher/.minecraft/assets, --assetIndex, 17, --uuid, 5f6a2ef3b4484f6583f4bfd3f04405b7, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, , --userType, msa, --versionType, release, --fml.neoForgeVersion, 21.1.203, --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[08:46:57] [main/INFO]: JVM identified as Oracle Corporation OpenJDK Client VM 21.0.1-internal-adhoc.runner.openjdk-21
+[08:46:57] [main/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.1-internal by N/A; OS Linux arch arm version Android-9
+[08:46:57] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+Registered forkAndExec
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[LWJGL] Failed to load a library. Possible solutions:
+	a) Add the directory that contains the shared library to -Djava.library.path or -Dorg.lwjgl.librarypath.
+	b) Add the JAR that contains the shared library to the classpath.
+[LWJGL] Enable debug mode with -Dorg.lwjgl.util.Debug=true for better diagnostics.
+[LWJGL] Enable the SharedLibraryLoader debug mode with -Dorg.lwjgl.util.DebugLoader=true for better diagnostics.
+[08:46:58] [main/INFO]: Trying GL version 4.6
+EGLBridge: Binding to OpenGL ES
+[08:46:58] [main/INFO]: Requested GL version 4.6 got version 0.0
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+GLFW: Set size for window 3279532320, width=1248, height=780
+LTW: Running on OpenGL ES 3.2 with ESSL 320
+LTW: BaseVertex render calls will use the host driver implementation
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[08:46:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT
+LTW: Overridden glGetError
+LTW: Overridden glGetString
+LTW: Overridden glGetIntegerv
+LTW: Overridden glGetStringi
+LTW: Overridden glEnable
+LTW: Overridden glClearDepth
+LTW: Overridden glDepthRange
+LTW: Overridden glDrawBuffer
+LTW: Overridden glGetIntegerv
+LTW: Overridden glGetError
+LTW: Overridden glGetString
+LTW: Overridden glGetTexImage
+LTW: Overridden glGetTexLevelParameteriv
+LTW: Overridden glGetTexLevelParameterfv
+LTW: Overridden glReadPixels
+LTW: Overridden glTexImage2D
+LTW: Overridden glCopyTexSubImage2D
+LTW: Overridden glTexParameteri
+LTW: Overridden glTexParameteriv
+LTW: Overridden glTexParameterf
+LTW: Overridden glTexParameterfv
+LTW: Overridden glTexSubImage2D
+LTW: Overridden glMultiDrawArrays
+LTW: Overridden glMultiDrawElements
+LTW: Overridden glBindBuffer
+LTW: Overridden glMapBuffer
+LTW: Overridden glGetQueryObjectiv
+LTW: Overridden glCreateProgram
+LTW: Overridden glDeleteProgram
+LTW: Overridden glCreateShader
+LTW: Overridden glDeleteShader
+LTW: Overridden glAttachShader
+LTW: Overridden glShaderSource
+LTW: Overridden glLinkProgram
+LTW: Overridden glUseProgram
+LTW: Overridden glGetShaderiv
+LTW: Overridden glVertexAttrib1s
+LTW: Overridden glVertexAttrib1d
+LTW: Overridden glVertexAttrib2s
+LTW: Overridden glVertexAttrib2d
+LTW: Overridden glVertexAttrib3s
+LTW: Overridden glVertexAttrib3d
+LTW: Overridden glVertexAttrib4s
+LTW: Overridden glVertexAttrib4d
+LTW: Overridden glVertexAttrib4Nub
+LTW: Overridden glVertexAttrib1sv
+LTW: Overridden glVertexAttrib1dv
+LTW: Overridden glVertexAttrib2sv
+LTW: Overridden glVertexAttrib2dv
+LTW: Overridden glVertexAttrib3sv
+LTW: Overridden glVertexAttrib3dv
+LTW: Overridden glVertexAttrib4sv
+LTW: Overridden glVertexAttrib4dv
+LTW: Overridden glVertexAttrib4Nbv
+LTW: Overridden glVertexAttrib4Nsv
+LTW: Overridden glVertexAttrib4Niv
+LTW: Overridden glVertexAttrib4Nubv
+LTW: Overridden glVertexAttrib4Nusv
+LTW: Overridden glVertexAttrib4Nuiv
+LTW: Overridden glDrawBuffers
+LTW: Overridden glGetStringi
+LTW: Overridden glClearBufferiv
+LTW: Overridden glClearBufferuiv
+LTW: Overridden glClearBufferfv
+LTW: Overridden glVertexAttribI1i
+LTW: Overridden glVertexAttribI2i
+LTW: Overridden glVertexAttribI3i
+LTW: Overridden glVertexAttribI1ui
+LTW: Overridden glVertexAttribI2ui
+LTW: Overridden glVertexAttribI3ui
+LTW: Overridden glVertexAttribI1iv
+LTW: Overridden glVertexAttribI2iv
+LTW: Overridden glVertexAttribI3iv
+LTW: Overridden glVertexAttribI1uiv
+LTW: Overridden glVertexAttribI2uiv
+LTW: Overridden glVertexAttribI3uiv
+LTW: Overridden glVertexAttribI4bv
+LTW: Overridden glVertexAttribI4sv
+LTW: Overridden glVertexAttribI4ubv
+LTW: Overridden glVertexAttribI4usv
+LTW: Overridden glBindFragDataLocation
+LTW: Overridden glMapBufferRange
+LTW: Overridden glFlushMappedBufferRange
+LTW: Overridden glRenderbufferStorage
+LTW: Overridden glBindFramebuffer
+LTW: Overridden glDeleteFramebuffers
+LTW: Overridden glGenFramebuffers
+LTW: Overridden glCheckFramebufferStatus
+LTW: Overridden glFramebufferTexture2D
+LTW: Overridden glFramebufferTextureLayer
+LTW: Overridden glFramebufferRenderbuffer
+LTW: Overridden glGetFramebufferAttachmentParameteriv
+LTW: Overridden glTexParameterIiv
+LTW: Overridden glTexParameterIuiv
+LTW: Overridden glBindBufferRange
+LTW: Overridden glBindBufferBase
+LTW: Overridden glTexBuffer
+LTW: Overridden glMultiDrawElementsBaseVertex
+LTW: Overridden glBufferStorage
+LTW: Overridden glDebugMessageControl
+[08:46:59] [pool-2-thread-1/INFO]: GL info: Mali-G72 MP3 GL version 3.0 OpenLTW, artDev, SerpentSpirale, CADIndie
+LTW: glTexParameterIiv for parameters other than GL_TEXTURE_SWIZZLE_RGBA is not supported
+LTW: we don't support format conversion at the moment. Sorry!
+LTW: we don't support format conversion at the moment. Sorry!
+[08:47:00] [main/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.203:client]
+[08:47:00] [main/INFO]: Found mod file "neoforge-21.1.203-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/neoforge/21.1.203/neoforge-21.1.203-universal.jar]], reader: mod manifest]
+[08:47:00] [main/INFO]: Found mod file "entityculling-neoforge-1.8.2-mc1.21.jar" [locator: {mods folder locator at /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549/mods}, reader: mod manifest]
+[08:47:00] [main/INFO]: Found mod file "fzzy_config-0.7.2+1.21+neoforge.jar" [locator: {mods folder locator at /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549/mods}, reader: mod manifest]
+[08:47:00] [main/INFO]: Found mod file "geckolib-neoforge-1.21.1-4.7.7.jar" [locator: {mods folder locator at /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549/mods}, reader: mod manifest]
+[08:47:00] [main/INFO]: Found library file "kotlinforforge-5.9.0-all.jar" [locator: {mods folder locator at /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549/mods}, reader: mod manifest]
+[08:47:00] [main/INFO]: Found mod file "thebrokenscript-1.10.1+mc1.21.1-build.280.jar" [locator: {mods folder locator at /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549/mods}, reader: mod manifest]
+[08:47:02] [main/INFO]: Found 29 dependencies adding them to mods collection
+[08:47:02] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.203-universal.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found library file "gson-0.1.5.jar" [parent: thebrokenscript-1.10.1+mc1.21.1-build.280.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "imgui-java-binding-1.88.0.jar" [parent: veil-neoforge-1.21.1-1.3.2.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-1.3.2.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.203.jar" [parent: neoforge-21.1.203-universal.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found library file "thedarkcolour.kfflang-5.9.0.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found library file "imgui-java-natives-linux-1.88.0.jar" [parent: veil-neoforge-1.21.1-1.3.2.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found gamelibrary file "thedarkcolour.kfflib-5.9.0.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found mod file "TRender-1.0.5-1.21-neoforge-SNAPSHOT.jar" [parent: entityculling-neoforge-1.8.2-mc1.21.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found mod file "thedarkcolour.kffmod-5.9.0.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found library file "kotlin-reflect-2.1.21.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "kotlin-stdlib-2.1.21.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "endec-0.1.8.jar" [parent: thebrokenscript-1.10.1+mc1.21.1-build.280.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "netty-0.1.4.jar" [parent: thebrokenscript-1.10.1+mc1.21.1-build.280.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "imgui-java-lwjgl3-1.88.0.jar" [parent: veil-neoforge-1.21.1-1.3.2.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.2+1.21+neoforge.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found mod file "veil-neoforge-1.21.1-1.3.2.jar" [parent: thebrokenscript-1.10.1+mc1.21.1-build.280.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "imgui-java-natives-windows-1.88.0.jar" [parent: veil-neoforge-1.21.1-1.3.2.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "imgui-java-natives-macos-1.88.0.jar" [parent: veil-neoforge-1.21.1-1.3.2.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found mod file "TRansition-1.0.3-1.21-neoforge-SNAPSHOT.jar" [parent: entityculling-neoforge-1.8.2-mc1.21.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found library file "kotlin-stdlib-jdk7-2.1.21.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "kotlin-stdlib-jdk8-2.1.21.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-1.3.2.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "kotlinx-serialization-core-jvm-1.8.1.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: thebrokenscript-1.10.1+mc1.21.1-build.280.jar, locator: jarinjar, reader: mod manifest]
+[08:47:02] [main/INFO]: Found library file "kotlinx-serialization-json-jvm-1.8.1.jar" [parent: kotlinforforge-5.9.0-all.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: Found library file "jankson-1.2.3.jar" [parent: fzzy_config-0.7.2+1.21+neoforge.jar, locator: jarinjar]
+[08:47:02] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		EntityCulling 1.8.2 (entityculling)
+		Fzzy Config 0.7.2+1.21+neoforge (fzzy_config)
+		GeckoLib 4 4.7.7 (geckolib)
+		Kotlin For Forge 5.9.0 (kotlinforforge)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.203 (neoforge)
+		The Broken Script 1.10.1 (thebrokenscript)
+		TRansition 1.0.3 (transition)
+		TRender 1.0.5 (trender)
+		Veil 1.3.2 (veil)
+[08:47:05] [main/INFO]: Compatibility level set to JAVA_21
+[08:47:05] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, /storage/emulated/0/games/PojavLauncher/instances/f2c18d70-24c1-4883-b38a-0934a0147549, --assetsDir, /storage/emulated/0/games/PojavLauncher/.minecraft/assets, --uuid, 5f6a2ef3b4484f6583f4bfd3f04405b7, --username, coolturtle, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, , --userType, msa, --versionType, release]
+[08:47:05] [main/WARN]: Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.debug.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.dynamicbuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.fix.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.framebuffer.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.imgui.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.necromancer.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.performance.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.perspective.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.pipeline.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.quasar.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.registry.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.rendertype.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.resource.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.scheduler.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.shader.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.tooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'veil.refmap.json' for veil.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:05] [main/WARN]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:47:06] [main/WARN]: Error loading class: net/irisshaders/iris/pipeline/PipelineManager (java.lang.ClassNotFoundException: net.irisshaders.iris.pipeline.PipelineManager)
+[08:47:06] [main/WARN]: @Mixin target net.irisshaders.iris.pipeline.PipelineManager was not found veil.neoforge.mixins.json:client.perspective.iris.PipelineManagerMixin from mod veil
+[08:47:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+ERROR StatusConsoleListener appender Console has no parameter that matches element Policies
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
+[08:47:12] [main/WARN] [os.so.os.li.LinuxOperatingSystem/]: Did not find udev library in operating system. Some features may not work.
+[08:47:13] [main/WARN] [os.ut.FileUtil/]: File not found or not readable: /proc/stat
+[08:47:13] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 1407 milliseconds
+[08:47:33] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[08:47:33] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [INFO] Httpd is running on port 45431
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
+[08:47:33] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=http://127.0.0.1:45431/https/sessionserver.mojang.com, servicesHost=http://127.0.0.1:45431/https/api.minecraftservices.com, name=PROD]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo] with [Yggdrasil Public Key Transformer]
+[08:47:33] [Render thread/INFO] [minecraft/Minecraft]: Setting user: coolturtle
+[08:47:34] [Render thread/ERROR] [minecraft/Options]: Error parsing option value off for option Fullscreen: Not a boolean: "off"
+[08:47:34] [Render thread/ERROR] [minecraft/Options]: Error parsing option value 0.5d for option Text Background Opacity: Failed to parse either. First: Not a number: "0.5d"; Second: Not a boolean: "0.5d"
+[08:47:34] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3-snapshot
+LTW: Overridden glGetError
+LTW: Overridden glGetString
+LTW: Overridden glGetIntegerv
+LTW: Overridden glGetStringi
+LTW: Overridden glEnable
+LTW: Overridden glClearDepth
+LTW: Overridden glDepthRange
+LTW: Overridden glDrawBuffer
+LTW: Overridden glGetIntegerv
+LTW: Overridden glGetError
+LTW: Overridden glGetString
+LTW: Overridden glGetTexImage
+LTW: Overridden glGetTexLevelParameteriv
+LTW: Overridden glGetTexLevelParameterfv
+LTW: Overridden glReadPixels
+LTW: Overridden glTexImage2D
+LTW: Overridden glCopyTexSubImage2D
+LTW: Overridden glTexParameteri
+LTW: Overridden glTexParameteriv
+LTW: Overridden glTexParameterf
+LTW: Overridden glTexParameterfv
+LTW: Overridden glTexSubImage2D
+LTW: Overridden glMultiDrawArrays
+LTW: Overridden glMultiDrawElements
+LTW: Overridden glBindBuffer
+LTW: Overridden glMapBuffer
+LTW: Overridden glGetQueryObjectiv
+LTW: Overridden glCreateProgram
+LTW: Overridden glDeleteProgram
+LTW: Overridden glCreateShader
+LTW: Overridden glDeleteShader
+LTW: Overridden glAttachShader
+LTW: Overridden glShaderSource
+LTW: Overridden glLinkProgram
+LTW: Overridden glUseProgram
+LTW: Overridden glGetShaderiv
+LTW: Overridden glVertexAttrib1s
+LTW: Overridden glVertexAttrib1d
+LTW: Overridden glVertexAttrib2s
+LTW: Overridden glVertexAttrib2d
+LTW: Overridden glVertexAttrib3s
+LTW: Overridden glVertexAttrib3d
+LTW: Overridden glVertexAttrib4s
+LTW: Overridden glVertexAttrib4d
+LTW: Overridden glVertexAttrib4Nub
+LTW: Overridden glVertexAttrib1sv
+LTW: Overridden glVertexAttrib1dv
+LTW: Overridden glVertexAttrib2sv
+LTW: Overridden glVertexAttrib2dv
+LTW: Overridden glVertexAttrib3sv
+LTW: Overridden glVertexAttrib3dv
+LTW: Overridden glVertexAttrib4sv
+LTW: Overridden glVertexAttrib4dv
+LTW: Overridden glVertexAttrib4Nbv
+LTW: Overridden glVertexAttrib4Nsv
+LTW: Overridden glVertexAttrib4Niv
+LTW: Overridden glVertexAttrib4Nubv
+LTW: Overridden glVertexAttrib4Nusv
+LTW: Overridden glVertexAttrib4Nuiv
+LTW: Overridden glDrawBuffers
+LTW: Overridden glGetStringi
+LTW: Overridden glClearBufferiv
+LTW: Overridden glClearBufferuiv
+LTW: Overridden glClearBufferfv
+LTW: Overridden glVertexAttribI1i
+LTW: Overridden glVertexAttribI2i
+LTW: Overridden glVertexAttribI3i
+LTW: Overridden glVertexAttribI1ui
+LTW: Overridden glVertexAttribI2ui
+LTW: Overridden glVertexAttribI3ui
+LTW: Overridden glVertexAttribI1iv
+LTW: Overridden glVertexAttribI2iv
+LTW: Overridden glVertexAttribI3iv
+LTW: Overridden glVertexAttribI1uiv
+LTW: Overridden glVertexAttribI2uiv
+LTW: Overridden glVertexAttribI3uiv
+LTW: Overridden glVertexAttribI4bv
+LTW: Overridden glVertexAttribI4sv
+LTW: Overridden glVertexAttribI4ubv
+LTW: Overridden glVertexAttribI4usv
+LTW: Overridden glBindFragDataLocation
+LTW: Overridden glMapBufferRange
+LTW: Overridden glFlushMappedBufferRange
+LTW: Overridden glRenderbufferStorage
+LTW: Overridden glBindFramebuffer
+LTW: Overridden glDeleteFramebuffers
+LTW: Overridden glGenFramebuffers
+LTW: Overridden glCheckFramebufferStatus
+LTW: Overridden glFramebufferTexture2D
+LTW: Overridden glFramebufferTextureLayer
+LTW: Overridden glFramebufferRenderbuffer
+LTW: Overridden glGetFramebufferAttachmentParameteriv
+LTW: Overridden glTexParameterIiv
+LTW: Overridden glTexParameterIuiv
+LTW: Overridden glBindBufferRange
+LTW: Overridden glBindBufferBase
+LTW: Overridden glTexBuffer
+LTW: Overridden glMultiDrawElementsBaseVertex
+LTW: Overridden glBufferStorage
+LTW: Overridden glDebugMessageControl
+[08:47:37] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[LibGui] Initializing Client...
+[08:47:37] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.203, for MC 1.21.1
+[08:47:38] [modloading-worker-0/ERROR] [Veil/]: Failed to get ImGui shader handle: caller does not have PRIVATE and MODULE lookup mode
+[08:47:38] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
+[08:47:39] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config fzzy_config:keybinds in 974ms
+[08:47:40] [modloading-worker-0/INFO] [de.we.th.TheBrokenScript/]: Registering 1 entries of to registry neoforge:attachment_types for mod thebrokenscript
+[08:47:40] [modloading-worker-0/INFO] [de.we.th.TheBrokenScript/]: Registering 4 entries of to registry minecraft:particle_type for mod thebrokenscript
+[LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+[08:47:44] [Render thread/INFO] [Veil/]: GL Debug supported
+OpenJDK Client VM warning: You have loaded library /data/data/git.artdeell.mojo/cache/imgui-java-natives/1.88.0/libimgui-javaarm64.dylib which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+[08:47:46] [Render thread/ERROR] [Veil/]: Failed to load ImGui, disabling
+java.lang.UnsatisfiedLinkError: /data/data/git.artdeell.mojo/cache/imgui-java-natives/1.88.0/libimgui-javaarm64.dylib: dlopen failed: "/data/data/git.artdeell.mojo/cache/imgui-java-natives/1.88.0/libimgui-javaarm64.dylib" has bad ELF magic
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method) ~[?:?] {}
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:331) ~[?:?] {}
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:197) ~[?:?] {}
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:139) ~[?:?] {}
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2418) ~[?:?] {}
+	at java.base/java.lang.Runtime.load0(Runtime.java:852) ~[?:?] {}
+	at java.base/java.lang.System.load(System.java:2021) ~[?:?] {re:mixin}
+	at LAYER PLUGIN/imgui.binding@1.88.0/imgui.ImGui.<clinit>(ImGui.java:46) ~[imgui-java-binding-1.88.0.jar%23206!/:1.88.0] {re:mixin}
+	at TRANSFORMER/veil@1.3.2/foundry.veil.impl.client.imgui.ImGuiStateStack.push(ImGuiStateStack.java:19) ~[veil-neoforge-1.21.1-1.3.2.jar%23191!/:1.3.2] {re:classloading}
+	at TRANSFORMER/veil@1.3.2/foundry.veil.impl.client.imgui.VeilImGuiImpl.<init>(VeilImGuiImpl.java:66) ~[veil-neoforge-1.21.1-1.3.2.jar%23191!/:1.3.2] {re:classloading}
+	at TRANSFORMER/veil@1.3.2/foundry.veil.impl.client.imgui.VeilImGuiImpl.init(VeilImGuiImpl.java:204) ~[veil-neoforge-1.21.1-1.3.2.jar%23191!/:1.3.2] {re:classloading}
+	at TRANSFORMER/veil@1.3.2/foundry.veil.api.client.render.VeilRenderSystem.init(VeilRenderSystem.java:1102) ~[veil-neoforge-1.21.1-1.3.2.jar%23191!/:1.3.2] {re:mixin,re:classloading}
+	at TRANSFORMER/veil@1.3.2/foundry.veil.forge.VeilForgeClient.registerListeners(VeilForgeClient.java:72) ~[veil-neoforge-1.21.1-1.3.2.jar%23191!/:1.3.2] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23110!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23110!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23110!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.ModLoader.lambda$postEvent$13(ModLoader.java:358) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.ModLoader.postEvent(ModLoader.java:358) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at TRANSFORMER/neoforge@21.1.203/net.neoforged.neoforge.client.ClientHooks.initClientHooks(ClientHooks.java:1026) ~[neoforge-21.1.203-universal.jar%23152!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:601) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:thebrokenscript.mixins.json:MinecraftMixin from mod thebrokenscript,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:A,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+[08:47:47] [Render thread/ERROR] [mojang/Narrator]: Error while loading the narrator
+com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
+	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.17.9.jar%2384!/:?] {}
+	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2384!/:?] {}
+	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2384!/:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:609) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:thebrokenscript.mixins.json:MinecraftMixin from mod thebrokenscript,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:A,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+Caused by: java.lang.UnsatisfiedLinkError: Unable to load library 'flite':
+dlopen failed: library "libflite.so" not found
+dlopen failed: library "libflite.so" not found
+Native library (linux-armel/libflite.so) not found in resource path (/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.41/earlydisplay-4.0.41.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/fancymodloader/loader/4.0.41/loader-4.0.41.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/bus/8.0.5/bus-8.0.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/versions/neoforge-21.1.203/neoforge-21.1.203.jar:/storage/emulated/0/games/PojavLauncher/lwjgl3/lwjgl-glfw-classes.jar)
+	at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:325) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+	at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:481) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+	at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:423) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+	at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2384!/:?] {}
+	... 20 more
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen failed: library "libflite.so" not found
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Native.open(Native Method) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:213) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:481) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:423) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:classloading,pl:runtimedistcleaner:A}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:609) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:thebrokenscript.mixins.json:MinecraftMixin from mod thebrokenscript,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:A,pl:runtimedistcleaner:A}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:A,pl:runtimedistcleaner:A}
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+		at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen failed: library "libflite.so" not found
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Native.open(Native Method) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:226) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:481) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:423) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:classloading,pl:runtimedistcleaner:A}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:609) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:thebrokenscript.mixins.json:MinecraftMixin from mod thebrokenscript,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:A,pl:runtimedistcleaner:A}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:A,pl:runtimedistcleaner:A}
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+		at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	Suppressed: java.io.IOException: Native library (linux-armel/libflite.so) not found in resource path (/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/ibm/icu/icu4j/73.2/icu4j-73.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.41/earlydisplay-4.0.41.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/fancymodloader/loader/4.0.41/loader-4.0.41.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/bus/8.0.5/bus-8.0.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar:/storage/emulated/0/games/PojavLauncher/.minecraft/versions/neoforge-21.1.203/neoforge-21.1.203.jar:/storage/emulated/0/games/PojavLauncher/lwjgl3/lwjgl-glfw-classes.jar)
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.Native.extractFromResourcePath(Native.java:1141) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:297) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:481) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/com.sun.jna@5.14.0/com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:423) ~[jna-5.14.0.jar%2399!/:5.14.0 (b0)] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at MC-BOOTSTRAP/text2speech@1.17.9/com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2384!/:?] {}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.GameNarrator.<init>(GameNarrator.java:21) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:classloading,pl:runtimedistcleaner:A}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:609) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMinecraftMixin from mod veil,pl:mixin:APP:veil.pipeline.mixins.json:client.PipelineMinecraftMixin from mod veil,pl:mixin:APP:veil.neoforge.mixins.json:client.MinecraftMixin from mod veil,pl:mixin:APP:thebrokenscript.mixins.json:MinecraftMixin from mod thebrokenscript,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:A,pl:runtimedistcleaner:A}
+		at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:veil.debug.mixins.json:client.DebugMainMixin from mod veil,pl:mixin:A,pl:runtimedistcleaner:A}
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%23107!/:4.0] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?] {}
+		at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+		at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+[08:47:48] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/entityculling, mod/trender, mod/veil, mod/kotlinforforge, mod/fzzy_config, mod/geckolib, mod/thebrokenscript, mod/neoforge, mod/transition
+[08:47:49] [Worker-Main-1/ERROR] [minecraft/Util]: Invalid path in pack: thebrokenscript:animations/anomaly1(new).animation.json, ignoring
+[08:47:49] [Worker-Main-3/ERROR] [minecraft/Util]: Invalid path in pack: thebrokenscript:geo/anomaly1(new).geo.json, ignoring
+[08:47:49] [Worker-Main-3/ERROR] [minecraft/Util]: Invalid path in pack: thebrokenscript:geo/anomaly1(new)_uwu.geo.json, ignoring
+[08:47:49] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [thebrokenscript] Starting version check at https://api.modrinth.com/updates/the-broken-script/forge_updates.json
+[08:47:50] [Worker-Main-3/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+[08:47:50] [Worker-Main-4/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+[08:47:51] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [thebrokenscript] Found status: BETA Current: 1.10.1 Target: null
+[08:47:57] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
+[08:47:57] [Render thread/INFO] [Veil/]: Skipping compute shader 'veil:light/indirect_sphere' (compute is unsupported on this platform)
+[08:47:58] [Render thread/INFO] [Veil/]: Loaded 16 shaders from: pinwheel/shaders/program
+[08:47:58] [Render thread/INFO] [Veil/]: Multi-Bind unsupported, using legacy
+[08:47:59] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+[08:47:59] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[ALSOFT] (EE) Failed to set real-time priority for thread: Operation not permitted (1)
+[08:47:59] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device OpenSL
+[08:48:00] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[08:48:01] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x0 minecraft:textures/atlas/blocks.png-atlas
+[08:48:01] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[08:48:01] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[08:48:02] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[08:48:03] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08:48:05] [Render thread/INFO] [Veil/]: Loaded 2 framebuffers
+[08:48:05] [Render thread/INFO] [Veil/]: Loaded 4 post pipelines
+[08:48:05] [Render thread/INFO] [Veil/]: Loaded 0 render types
+[08:48:05] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[08:48:05] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[08:48:05] [Render thread/INFO] [ne.ne.ne.cl.en.an.js.AnimationLoader/]: Loaded 0 entity animations
+[08:48:06] [Render thread/INFO] [fzzy_config/]: Loaded config thebrokenscript:client in 202ms
+[08:48:08] [Render thread/INFO] [fzzy_config/]: Loaded config thebrokenscript:common in 282ms
+[08:48:08] [Render thread/INFO] [Veil/]: Compiled 57 vanilla shaders in 3.695 s
+[08:48:09] [IO-Worker-1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: java.lang.NullPointerException: Cannot invoke "java.util.Date.getTime()" because the return value of "com.nimbusds.jwt.JWTClaimsSet.getNotBeforeTime()" is null
+[08:48:09] [IO-Worker-1/ERROR] [mojang/RealmsAvailability]: Couldn't connect to realms
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.NullPointerException: Cannot invoke "java.util.Date.getTime()" because the return value of "com.nimbusds.jwt.JWTClaimsSet.getNotBeforeTime()" is null'
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:447) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:232) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:51) ~[client-1.21.1-20240808.144430-srg.jar%23151!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:mixinextras
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:immediatelyfast
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:geckolib
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:ferritecore
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:forge
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:badoptimizations
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:embeddium
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:clumps
+[08:48:29] [Render thread/WARN] [minecraft/MinecraftServer]: Missing data pack mod:modernfix
+[08:48:29] [Render thread/INFO] [minecraft/MinecraftServer]: Found new data pack mod/thebrokenscript:nostalgia_gen, loading it automatically
+my note: crash happend after around 50 seconds
